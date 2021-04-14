@@ -4,9 +4,11 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/server.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "json-server": "0.16.3"
+  },
   "devDependencies": {
     "nodemon": "1.18.4"
   },
