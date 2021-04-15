@@ -1,5 +1,5 @@
 {
-  "name": "acompanhamentotest-backend-linked",
+  "name": "acompanhamentotest-backend-acoplado",
   "version": "1.0.0",
   "description": "",
   "main": "src/server.js",
@@ -12,5 +12,8 @@
   "devDependencies": {
     "nodemon": "1.18.4"
   },
-  "keywords": []
+  "keywords": [],
+  "nodemonConfig": {
+    "ignore": ["src/db/*"]
+  }
 }
