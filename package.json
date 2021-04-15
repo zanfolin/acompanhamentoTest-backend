@@ -6,6 +6,9 @@
   "scripts": {
     "start": "nodemon src/server.js"
   },
+  "nodemonConfig": {
+    "ignore": ["/src/db/*"]
+  },
   "dependencies": {
     "json-server": "0.16.3"
   },
